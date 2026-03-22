@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 3600
     strategy:
       matrix:
-        node_id: [1, 2, 3, 4]
+        node_id: [1, 2]
 
     steps:
       - name: 1. Optimize Environment
